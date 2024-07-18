@@ -1,6 +1,7 @@
 import { Separator } from "@/components/ui/separator";
 import ProgressBarComponent from "./ProgressBarComponent";
 import Image from "next/image";
+import avatar from "../../../../public/avatar.png"
 
 const LeftSticky = () => {
   return (
@@ -9,7 +10,7 @@ const LeftSticky = () => {
         <section className="flex flex-col items-center space-y-8 px-2">
           {/* bio section */}
           <div className="relative size-32 rounded-full border">
-            <Image alt="avatar" src={""} fill className="object-contain" />
+            <Image alt="avatar" src={avatar} fill className="object-contain rounded-full" />
           </div>
           <div className="flex flex-col items-center space-y-4">
             <p className="font-semibold text-theme-main_black">

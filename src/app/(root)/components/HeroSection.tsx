@@ -3,6 +3,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 import Image from "next/image";
+import avatar from "../../../../public/avatar.png"
 
 const HeroSection = () => {
   const scrolltoHash = function (element_id: string) {
@@ -42,7 +43,7 @@ const HeroSection = () => {
       </div>
       <div className="w-2/5">
       <div className="relative size-full">
-        <Image alt="avatar" src={""} className="object-contain"/></div></div>
+        <Image alt="avatar" src={avatar} className="object-contain"/></div></div>
     </div>
   );
 };
