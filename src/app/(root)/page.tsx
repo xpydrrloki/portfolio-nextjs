@@ -6,7 +6,7 @@ import ContactInfo from "./components/ContactInfo";
 
 const Home = () => {
   return (
-    <main className=" container mx-auto h-fit flex flex-col gap-y-20">
+    <main className=" container w-full mx-auto h-fit flex flex-col md:gap-y-20 gap-y-10">
       {/* todo: ganti h */}
       <section><HeroSection/></section>
       <section><PastProjects/></section>
