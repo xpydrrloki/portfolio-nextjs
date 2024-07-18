@@ -5,7 +5,7 @@ import avatar from "../../../../public/avatar.png"
 
 const LeftSticky = () => {
   return (
-    <div className="w-[360px] container bg-white sticky top-0 h-screen py-0 text-xs">
+    <div className="hidden md:block w-[360px] container bg-white sticky top-0 h-screen py-0 text-xs">
       <div className="mt-0 mb-64 scale-90">
         <section className="flex flex-col items-center space-y-8 px-2">
           {/* bio section */}

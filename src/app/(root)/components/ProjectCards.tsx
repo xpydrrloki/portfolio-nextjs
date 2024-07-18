@@ -24,7 +24,7 @@ const ProjectCards: FC<ProjectCardsProps> = ({
 }) => {
   return (
     <Link href={link || ""}>
-      <Card className="h-[400px] hover:scale-105 transition-all hover:brightness-95">
+      <Card className="h-[400px] hover:scale-105 transition-all hover:brightness-95 ">
         <CardHeader>
           <div className="relative size-56 overflow-y-hidden">
             <Image
@@ -36,8 +36,8 @@ const ProjectCards: FC<ProjectCardsProps> = ({
         </CardHeader>
         <CardContent>
           <div className="max-w-56 mb-8">
-            <h3 className="text-xl font-bold">{title}</h3>
-            <p className="line-clamp-3 overflow-hidden">{description}</p>
+            <h3 className="md:text-xl text-lg font-bold">{title}</h3>
+            <p className="line-clamp-3 overflow-hidden md:text-base text-sm">{description}</p>
           </div>
         </CardContent>
       </Card>
