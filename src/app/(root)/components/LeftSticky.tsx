@@ -37,11 +37,13 @@ const LeftSticky = () => {
             label="Indonesian"
             value={100}
             color="bg-theme-main_yellow"
+            desc="Mastered"
           />
           <ProgressBarComponent
             label="English"
             value={90}
             color="bg-theme-main_yellow"
+            desc="Advanced"
           />
         </section>
         <Separator className="my-8" />
@@ -51,26 +53,31 @@ const LeftSticky = () => {
             label="HTML"
             value={95}
             color="bg-theme-main_yellow"
+            desc="Intermediate"
           />
           <ProgressBarComponent
             label="CSS"
             value={90}
             color="bg-theme-main_yellow"
+            desc="Intermediate"
           />
           <ProgressBarComponent
             label="JavaScript"
             value={90}
             color="bg-theme-main_yellow"
+            desc="Intermediate"
           />
           <ProgressBarComponent
             label="TypeScript"
             value={95}
             color="bg-theme-main_yellow"
+            desc="Advanced"
           />
           <ProgressBarComponent
             label="Node.js"
             value={95}
             color="bg-theme-main_yellow"
+            desc="Intermediate"
           />
         </section>
       </div>
