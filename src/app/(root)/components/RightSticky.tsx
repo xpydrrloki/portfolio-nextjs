@@ -14,7 +14,7 @@ const RightSticky = () => {
   };
   return (
     <div className="hidden md:block bg-theme-off_white w-32 sticky h-screen top-0">
-      <div className="flex flex-col items-center align-middle gap-y-16 my-36 ">
+      <div className="flex flex-col items-center align-middle gap-y-16 my-36 max-w-full">
         <Button
           className="rounded-full size-16 bg-theme-third_gray hover:bg-theme-main_yellow/50"
           onClick={() => scrolltoHash("hero")}
